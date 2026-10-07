@@ -1,0 +1,113 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Abstract Template - Université Ibn Tofaïl</title>
+<style>
+  @page {
+    size: A4;
+    margin: 2.54cm;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 1.25;
+    color: #000000;
+    margin: 2.54cm;
+  }
+  .title {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 14pt;
+  }
+  .authors {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 6pt;
+  }
+  .main-author {
+    font-weight: bold;
+  }
+  .address {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 4pt;
+  }
+  .email {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 18pt;
+  }
+  .body-text {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 1.3;
+    text-indent: 0;
+    margin-bottom: 18pt;
+  }
+  .figure-container {
+    text-align: center;
+    margin-top: 18pt;
+    margin-bottom: 18pt;
+  }
+  .figure-caption {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 8pt;
+    margin-bottom: 24pt;
+  }
+  .references {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.3;
+    margin-top: 20pt;
+  }
+  .ref-item {
+    margin-bottom: 6pt;
+  }
+</style>
+</head>
+<body>
+
+<div class="title">Title of the abstract in bold</div>
+
+<div class="authors">
+  <span class="main-author">Main Author</span>, rest of authors not bold
+</div>
+
+<div class="address">Department address written in italic</div>
+
+<div class="email">Email in italic</div>
+
+<div class="body-text">
+  Main text of the abstract should be written with font 12, Arial. No indent of the paragraph. The references should be noted as the following example.[1] The figures in the abstract are allowed if they fit into one page limit and should be referred in the text accordingly (figure 1 [2]). One space before and after the figure is required. Abstracts are accepted in .pdf and .doc/docx formats.
+</div>
+
+<div class="figure-container">
+  <svg width="240" height="200" viewBox="0 0 240 200" style="margin: 0 auto; display: block;">
+    <circle cx="120" cy="100" r="95" fill="none" stroke="#2563eb" stroke-width="2"/>
+    <path d="M 50 140 Q 90 140 100 110 Q 115 65 140 95 Q 165 125 200 120" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <polygon points="170,110 195,120 175,130" fill="#f59e0b"/>
+    <text x="120" y="30" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Non-Aqueous Cyclic Voltammetry</text>
+    <text x="120" y="180" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#047857">A Practical Introduction</text>
+    <text x="75" y="90" font-family="Arial" font-size="9" fill="#047857" transform="rotate(-90 75 90)">Current</text>
+    <text x="120" y="160" font-family="Arial" font-size="9" fill="#047857" text-anchor="middle">Potential</text>
+  </svg>
+  <div class="figure-caption">Figure 1: Figure captions should be below the figure.</div>
+</div>
+
+<div class="references">
+  <div class="ref-item">(1) Author, A.; Author, B.; Author, C. Title of the Journal/Publishing house, Pages.</div>
+  <div class="ref-item">(2) Elgrishi, N.; Rountree, K. J.; McCarthy, B. D.; Rountree, E. S.; Eisenhart, T. T.; Dempsey, J. L. <i>Journal of Chemical Education</i> <b>2018</b>, <i>95</i>, 197–206.</div>
+</div>
+
+</body>
+</html>

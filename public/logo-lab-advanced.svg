@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crescentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff" />
+      <stop offset="40%" stop-color="#0072ff" />
+      <stop offset="100%" stop-color="#0b3c78" />
+    </linearGradient>
+    <linearGradient id="flaskBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="moleculeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#00a3ff" />
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#03487f" />
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="50%" stop-color="#0077b6" />
+      <stop offset="100%" stop-color="#023e8a" />
+    </linearGradient>
+  </defs>
+
+  <!-- LEFT EMBLEM (Centered at x=115, y=90) -->
+  <g transform="translate(15, 8)">
+    
+    <!-- Outer Crescent Swoosh Enclosing Emblem -->
+    <path d="M 125,12 C 60,12 12,62 12,120 C 12,138 18,154 28,166 C 18,150 14,132 16,112 C 22,64 68,26 122,24 C 152,24 178,36 195,54 C 182,32 156,12 125,12 Z" fill="url(#crescentGrad)" />
+
+    <!-- Wave Swirls at Base -->
+    <path d="M 28,166 C 55,178 95,174 135,152 C 165,135 185,138 200,150 C 178,166 142,176 100,172 C 65,168 40,158 28,166 Z" fill="url(#waveGrad)" />
+    <path d="M 45,150 C 75,160 115,156 150,138 C 175,126 192,130 205,140 C 185,150 155,160 120,158 C 85,156 60,146 45,150 Z" fill="#00d2ff" opacity="0.6" />
+
+    <!-- Distillation Columns & Industrial Pipes (Right of Emblem) -->
+    <g transform="translate(138, 55)">
+      <!-- Tall Column -->
+      <rect x="24" y="16" width="18" height="74" rx="9" fill="url(#pipeGrad)" />
+      <ellipse cx="33" cy="18" rx="7" ry="3" fill="#38bdf8" opacity="0.6" />
+      <!-- Horizontal pipe joints -->
+      <line x1="22" y1="36" x2="44" y2="36" stroke="#00d2ff" stroke-width="2" />
+      <line x1="22" y1="58" x2="44" y2="58" stroke="#00d2ff" stroke-width="2" />
+
+      <!-- Medium Column -->
+      <rect x="3" y="32" width="16" height="58" rx="8" fill="url(#pipeGrad)" />
+      <line x1="2" y1="48" x2="20" y2="48" stroke="#00d2ff" stroke-width="2" />
+      <line x1="2" y1="68" x2="20" y2="68" stroke="#00d2ff" stroke-width="2" />
+
+      <!-- Connecting Pipes -->
+      <path d="M 19,42 H 24" stroke="#00d2ff" stroke-width="3" fill="none" />
+      <path d="M 42,28 H 52 V 70" stroke="#0077b6" stroke-width="3" fill="none" />
+      <path d="M 3,42 H -6 V 80" stroke="#0077b6" stroke-width="3" fill="none" />
+    </g>
+
+    <!-- Chemical Molecular Hexagonal Ring (Upper Right of Emblem) -->
+    <g transform="translate(105, 32)">
+      <!-- Hexagon Lines -->
+      <polygon points="26,10 46,22 46,46 26,58 6,46 6,22" fill="none" stroke="url(#moleculeGrad)" stroke-width="3.5" stroke-linejoin="round" />
+      <!-- Second fused partial ring -->
+      <polyline points="46,22 62,12 78,22 78,44 62,54 46,46" fill="none" stroke="url(#moleculeGrad)" stroke-width="3.5" stroke-linejoin="round" />
+
+      <!-- Atom Nodes -->
+      <circle cx="26" cy="10" r="5" fill="#38bdf8" />
+      <circle cx="46" cy="22" r="5.5" fill="#10b981" />
+      <circle cx="46" cy="46" r="5.5" fill="#10b981" />
+      <circle cx="26" cy="58" r="5" fill="#38bdf8" />
+      <circle cx="6" cy="46" r="4.5" fill="#00d2ff" />
+      <circle cx="6" cy="22" r="4.5" fill="#00d2ff" />
+
+      <circle cx="62" cy="12" r="5" fill="#10b981" />
+      <circle cx="78" cy="22" r="4.5" fill="#34d399" />
+      <circle cx="78" cy="44" r="5" fill="#10b981" />
+      <circle cx="62" cy="54" r="4.5" fill="#00d2ff" />
+    </g>
+
+    <!-- Chemical Laboratory Flask (Erlenmeyer) -->
+    <g transform="translate(52, 62)">
+      <!-- Liquid in Flask -->
+      <path d="M 18,36 L 4,72 Q 1,78 8,78 L 56,78 Q 63,78 60,72 L 46,36 Z" fill="url(#flaskBlue)" />
+      <!-- Liquid Highlights & Meniscus -->
+      <ellipse cx="32" cy="36" rx="14" ry="2" fill="#7dd3fc" opacity="0.8" />
+      <!-- Flask Body Outline -->
+      <path d="M 26,6 L 26,26 L 4,72 Q 1,78 8,78 L 56,78 Q 63,78 60,72 L 38,26 L 38,6" fill="none" stroke="#003566" stroke-width="3" stroke-linejoin="round" />
+      <!-- Flask Lip Collar -->
+      <rect x="23" y="3" width="18" height="5" rx="2.5" fill="#003566" />
+      
+      <!-- Bubbles inside flask -->
+      <circle cx="20" cy="62" r="3.5" fill="#ffffff" opacity="0.9" />
+      <circle cx="36" cy="66" r="2.5" fill="#ffffff" opacity="0.8" />
+      <circle cx="42" cy="54" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cx="26" cy="48" r="1.8" fill="#ffffff" opacity="0.8" />
+
+      <!-- Bubbles rising above flask neck -->
+      <circle cx="32" cy="-6" r="4.5" fill="#00a3ff" />
+      <circle cx="44" cy="-18" r="3" fill="#38bdf8" />
+      <circle cx="24" cy="-20" r="3.5" fill="#00d2ff" />
+    </g>
+
+    <!-- Green Leaves (Biomass / Green Chemistry Symbolism) -->
+    <g transform="translate(98, 76)">
+      <!-- Big Center Leaf -->
+      <path d="M 0,55 C 4,32 18,10 38,0 C 40,24 30,48 0,55 Z" fill="url(#leafGrad)" />
+      <path d="M 2,52 Q 22,28 35,5" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.5" />
+
+      <!-- Side Leaf -->
+      <path d="M 24,52 C 34,36 48,22 65,18 C 64,36 50,50 24,52 Z" fill="url(#leafGrad)" />
+      <path d="M 26,50 Q 45,34 60,22" stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.5" />
+    </g>
+
+    <!-- Vertical Divider Line separating emblem and typography -->
+    <line x1="228" y1="28" x2="228" y2="152" stroke="#072b61" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+
+  <!-- RIGHT TYPOGRAPHY -->
+  <g transform="translate(265, 30)">
+    <!-- Line 1: LABORATORY OF ADVANCED -->
+    <text x="0" y="52" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#0b3c78" letter-spacing="1.2">
+      LABORATORY OF ADVANCED
+    </text>
+
+    <!-- Line 2: MATERIALS AND PROCESS ENGINEERING -->
+    <text x="0" y="104" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#0b3c78" letter-spacing="0.8">
+      MATERIALS AND PROCESS ENGINEERING
+    </text>
+  </g>
+</svg>

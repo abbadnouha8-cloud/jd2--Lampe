@@ -1,0 +1,6 @@
+{
+  "name": "The Second Doctoral Day 2026 - LAMPE",
+  "description": "Deuxième Journée Doctorale du Laboratoire des Matériaux Avancés et Génie des Procédés (LAMPE) - Université Ibn Tofaïl, Faculté des Sciences Kénitra",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
